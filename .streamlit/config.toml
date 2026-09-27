@@ -1,0 +1,20 @@
+[theme]
+base = "dark"
+primaryColor = "#7C6CFF"
+backgroundColor = "#07090F"
+secondaryBackgroundColor = "#0B0E15"
+textColor = "#F2F4F8"
+font = "sans serif"
+
+[server]
+# Serves ./static (self-hosted Manrope font) at /app/static/
+enableStaticServing = true
+# Slightly above Streamlit's 200 MB default is unnecessary; keep the default explicit.
+maxUploadSize = 200
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[browser]
+gatherUsageStats = false
